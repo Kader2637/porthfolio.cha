@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kharisma Choirunisa P - Developer & Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #4f46e5, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 glass-effect border-b border-slate-200 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-extrabold tracking-tighter gradient-text">Icha.dev</a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Beranda</a>
+                    <a href="#about"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Tentang</a>
+                    <a href="#experience"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Pengalaman</a>
+                    <a href="#skills"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Keahlian</a>
+                    <a href="#portfolio"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Portofolio</a>
+                    <a href="#testimonials"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Testimoni</a>
+                    <a href="#contact"
+                        class="bg-indigo-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200">Hubungi
+                        Saya</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 md:pt-48 md:pb-32 px-4 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+            <div
+                class="absolute -top-24 -left-24 w-96 h-96 bg-indigo-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob">
+            </div>
+            <div
+                class="absolute top-1/4 -right-24 w-96 h-96 bg-pink-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000">
+            </div>
+            <div
+                class="absolute -bottom-24 left-1/3 w-96 h-96 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000">
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 text-center md:text-left" data-aos="fade-right" data-aos-duration="1000">
+                <span
+                    class="inline-block py-1 px-3 rounded-full bg-indigo-50 text-indigo-600 font-semibold text-sm mb-6 border border-indigo-100">Tersedia
+                    untuk proyek baru</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-slate-900">
+                    Membangun Web & <br>
+                    <span class="gradient-text">Merangkai Visual</span>
+                </h1>
+                <p class="text-xl text-slate-600 mb-10 max-w-lg mx-auto md:mx-0 leading-relaxed">
+                    Halo, saya Kharisma Choirunisa P (Icha). Seorang Software Developer dan Video Editor profesional
+                    yang memadukan logika pemrograman dengan estetika sinematik.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#portfolio"
+                        class="bg-indigo-600 text-white px-8 py-4 rounded-full font-bold hover:bg-indigo-700 transition shadow-xl shadow-indigo-200 flex items-center justify-center gap-2">
+                        Lihat Karya Saya <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact"
+                        class="bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-full font-bold hover:bg-slate-50 transition shadow-sm flex items-center justify-center gap-2">
+                        Unduh CV <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                <div class="mt-12 flex items-center justify-center md:justify-start gap-6 text-slate-400">
+                    <a href="#" class="hover:text-indigo-600 text-2xl transition"><i class="fab fa-github"></i></a>
+                    <a href="#" class="hover:text-indigo-600 text-2xl transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-pink-600 text-2xl transition"><i class="fab fa-dribbble"></i></a>
+                    <a href="#" class="hover:text-red-600 text-2xl transition"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="hover:text-blue-500 text-2xl transition"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-16 md:mt-0 relative" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="relative w-72 h-72 md:w-96 md:h-96 mx-auto">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-[2rem] transform rotate-6 opacity-20">
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-[2rem] transform -rotate-3 opacity-30">
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Kharisma Choirunisa P"
+                        class="relative z-10 w-full h-full object-cover rounded-[2rem] shadow-2xl border-4 border-white">
+                    <div
+                        class="absolute -bottom-6 -right-6 bg-white p-4 rounded-2xl shadow-xl z-20 flex items-center gap-4">
+                        <div class="bg-green-100 text-green-600 p-3 rounded-full">
+                            <i class="fas fa-check-circle text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-bold text-slate-800">50+ Proyek</p>
+                            <p class="text-xs text-slate-500">Diselesaikan</p>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute -top-6 -left-6 bg-white p-4 rounded-2xl shadow-xl z-20 flex items-center gap-4">
+                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full">
+                            <i class="fas fa-code text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-bold text-slate-800">5 Tahun</p>
+                            <p class="text-xs text-slate-500">Pengalaman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 border-y border-slate-200 bg-white" data-aos="fade-up">
+        <div class="max-w-7xl mx-auto px-4 overflow-hidden">
+            <p class="text-center text-sm font-semibold text-slate-400 mb-6 uppercase tracking-wider">Dipercaya oleh
+                Perusahaan & Klien Hebat</p>
+            <div
+                class="flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition duration-500">
+                <i class="fab fa-aws text-5xl"></i>
+                <i class="fab fa-google text-5xl"></i>
+                <i class="fab fa-microsoft text-5xl"></i>
+                <i class="fab fa-adobe text-5xl"></i>
+                <i class="fab fa-figma text-5xl"></i>
+                <i class="fab fa-stripe text-5xl"></i>
+                <i class="fab fa-spotify text-5xl"></i>
+                <i class="fab fa-slack text-5xl"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-2">Tentang Saya</h2>
+                <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6">Dua Dunia, Satu Visi</h3>
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    Sebagai developer, saya merancang arsitektur sistem yang kokoh. Sebagai editor, saya merangkai
+                    cerita visual yang menggugah emosi. Kombinasi ini memungkinkan saya menciptakan produk digital yang
+                    tidak hanya berfungsi dengan sempurna, tetapi juga memanjakan mata.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover-lift" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div
+                        class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center text-3xl mb-8">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-4">Filosofi Development</h4>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        Kode yang bersih adalah puisi. Saya percaya bahwa arsitektur perangkat lunak yang baik harus
+                        mudah dibaca, skalabel, dan efisien. Saya fokus pada performa frontend dan struktur backend yang
+                        aman untuk memberikan pengalaman pengguna yang mulus tanpa hambatan.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-indigo-500"></i> Clean Code Architecture</li>
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-indigo-500"></i> Responsive & Accessible UI</li>
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-indigo-500"></i> Performance Optimization</li>
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-indigo-500"></i> Test-Driven Development</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover-lift" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div
+                        class="w-16 h-16 bg-pink-100 text-pink-600 rounded-2xl flex items-center justify-center text-3xl mb-8">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-4">Filosofi Editing</h4>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        Setiap frame memiliki cerita. Melalui komposisi warna, ritme pemotongan, dan desain suara, saya
+                        mengubah rekaman mentah menjadi narasi visual yang berdampak. Detail terkecil dalam transisi
+                        dapat mengubah keseluruhan suasana sebuah karya.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-pink-500"></i> Cinematic Storytelling</li>
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-pink-500"></i> Advanced Color Grading</li>
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-pink-500"></i> Dynamic Motion Graphics</li>
+                        <li class="flex items-center gap-3 text-slate-700 font-medium"><i
+                                class="fas fa-check text-pink-500"></i> Immersive Sound Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 bg-white relative">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-2">Perjalanan Karir</h2>
+                <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900">Pengalaman Profesional</h3>
+            </div>
+
+            <div class="relative border-l-4 border-indigo-100 pl-8 ml-4 md:ml-0 md:pl-0 md:border-l-0 space-y-12">
+                <div class="hidden md:block absolute top-0 bottom-0 left-1/2 w-1 bg-indigo-100 -translate-x-1/2"></div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-indigo-600 font-bold bg-indigo-50 px-3 py-1 rounded-full text-sm">2024
+                            - Sekarang</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Senior Frontend Engineer</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Tech Nusantara Raya, Jakarta</p>
+                        <p class="text-slate-600 mb-4">Memimpin tim frontend dalam migrasi arsitektur monolitik ke
+                            micro-frontends. Meningkatkan skor Lighthouse dari 65 ke 98. Mengimplementasikan CI/CD
+                            pipeline untuk deployment otomatis yang mengurangi waktu rilis hingga 60%.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">React</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Next.js</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">TypeScript</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Tailwind</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-pink-500 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-pink-600 font-bold bg-pink-50 px-3 py-1 rounded-full text-sm">2023
+                            - 2024</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Lead Video Editor</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Creative Visual Studio, Bandung</p>
+                        <p class="text-slate-600 mb-4">Bertanggung jawab atas post-production untuk lebih dari 40
+                            kampanye iklan televisi dan digital. Mengawasi tim yang terdiri dari 5 editor junior dan
+                            motion designer. Memenangkan penghargaan 'Best Commercial Editing' di Creative Award 2023.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Premiere
+                                Pro</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">After
+                                Effects</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">DaVinci
+                                Resolve</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-indigo-600 font-bold bg-indigo-50 px-3 py-1 rounded-full text-sm">2021
+                            - 2023</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Fullstack Developer</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">InnovaTech Startup, Surabaya</p>
+                        <p class="text-slate-600 mb-4">Membangun platform e-learning dari nol hingga mencapai 50.000
+                            pengguna aktif bulanan. Mengintegrasikan gateway pembayaran berganda dan merancang
+                            arsitektur database relasional yang kompleks.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Vue.js</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Node.js</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">PostgreSQL</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">AWS</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-pink-500 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-pink-600 font-bold bg-pink-50 px-3 py-1 rounded-full text-sm">2020
+                            - 2021</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Freelance Motion Designer</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Global Remote</p>
+                        <p class="text-slate-600 mb-4">Mengerjakan proyek freelance untuk klien internasional dari
+                            platform Upwork dan Fiverr. Spesialisasi dalam pembuatan video explainer 2D, logo animation,
+                            dan kinetic typography untuk startup teknologi.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">After
+                                Effects</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Illustrator</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Cinema
+                                4D</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-indigo-600 font-bold bg-indigo-50 px-3 py-1 rounded-full text-sm">2019
+                            - 2020</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Web Developer Intern</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Digital Agency X, Malang</p>
+                        <p class="text-slate-600 mb-4">Membangun landing page dan website profil perusahaan menggunakan
+                            HTML, CSS, Javascript, dan PHP dasar. Belajar bekerja dalam lingkungan tim yang menggunakan
+                            metodologi Agile/Scrum.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">HTML/CSS</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">JavaScript</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">PHP</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-pink-500 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-pink-600 font-bold bg-pink-50 px-3 py-1 rounded-full text-sm">2018
+                            - 2019</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Videographer & Junior Editor</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Wedding Moments, Malang</p>
+                        <p class="text-slate-600 mb-4">Mengambil footage acara pernikahan dan melakukan editing video
+                            highlight (same day edit). Mengasah kemampuan mengoperasikan kamera DSLR/Mirrorless dan
+                            gimbal stabilizer.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Videography</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Premiere
+                                Pro</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-indigo-600 font-bold bg-indigo-50 px-3 py-1 rounded-full text-sm">2018</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">IT Support & Network Admin</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Universitas Lokal</p>
+                        <p class="text-slate-600 mb-4">Mengelola jaringan lokal, troubleshooting perangkat keras, dan
+                            memelihara server database kampus. Mengembangkan portal pendaftaran mahasiswa baru sederhana
+                            berbasis PHP.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Networking</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Linux
+                                Server</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-pink-500 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-pink-600 font-bold bg-pink-50 px-3 py-1 rounded-full text-sm">2017
+                            - 2018</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">Graphic Design Intern</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Print Shop Maju Jaya</p>
+                        <p class="text-slate-600 mb-4">Mendesain brosur, banner, kartu nama, dan materi cetak lainnya.
+                            Mempelajari teori warna, tipografi, dan layouting yang menjadi fondasi estetika visual saya
+                            hingga saat ini.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">CorelDraw</span>
+                            <span
+                                class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Photoshop</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-md text-xs font-semibold">Print
+                                Design</span>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-indigo-600 font-bold bg-indigo-50 px-3 py-1 rounded-full text-sm">2015
+                            - 2019</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">S1 Teknik Informatika</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">Universitas Teknologi Nasional</p>
+                        <p class="text-slate-600 mb-4">Lulus dengan predikat Cum Laude (IPK 3.85). Aktif dalam
+                            organisasi kemahasiswaan himpunan jurusan dan menjadi ketua divisi multimedia. Skripsi
+                            berfokus pada implementasi Machine Learning untuk kompresi video.</p>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row justify-between items-center md:even:flex-row-reverse group"
+                    data-aos="fade-up">
+                    <div
+                        class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full border-4 border-white shadow-md items-center justify-center text-white z-10 transition-transform group-hover:scale-110">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div
+                        class="md:w-5/12 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl transition duration-300 w-full mb-8 md:mb-0 relative">
+                        <span
+                            class="absolute top-8 md:top-auto md:bottom-8 right-8 text-indigo-600 font-bold bg-indigo-50 px-3 py-1 rounded-full text-sm">2012
+                            - 2015</span>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-1">SMK Jurusan Multimedia</h4>
+                        <p class="text-lg font-medium text-slate-500 mb-4">SMK Negeri 1</p>
+                        <p class="text-slate-600 mb-4">Mempelajari dasar-dasar pemrograman web, desain grafis, animasi
+                            2D/3D, dan pengeditan audio/video. Menjuarai Lomba Kompetensi Siswa (LKS) tingkat provinsi
+                            bidang Web Design.</p>
+                    </div>
+                    <div class="hidden md:block md:w-5/12"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-2">Gudang Senjata</h2>
+                <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900">Keahlian & Teknologi</h3>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-16">
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-3"><i
+                            class="fas fa-code text-indigo-600"></i> Development Skills</h4>
+                    <div class="space-y-6">
+
+                        <div data-aos="fade-right" data-aos-delay="50">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>HTML / CSS / JavaScript</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="100">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>React.js / Next.js</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="150">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Tailwind CSS / SASS</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 92%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="200">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Node.js / Express</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="250">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>TypeScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="300">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Vue.js / Nuxt.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="350">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Git / GitHub CI/CD</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="400">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>SQL / MongoDB</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="450">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Python / Django</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-delay="500">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>PHP / Laravel</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-indigo-600 h-3 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-3"><i
+                            class="fas fa-film text-pink-600"></i> Editing & Design Skills</h4>
+                    <div class="space-y-6">
+
+                        <div data-aos="fade-left" data-aos-delay="50">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Adobe Premiere Pro</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 98%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="100">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Adobe After Effects</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="150">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>DaVinci Resolve (Color Grading)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="200">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Adobe Photoshop</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="250">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Adobe Illustrator</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="300">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Figma / UI/UX Design</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="350">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Blender 3D</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 65%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="400">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Cinema 4D</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="450">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Adobe Audition / Sound Design</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-delay="500">
+                            <div class="flex justify-between font-bold text-slate-700 mb-2">
+                                <span>Final Cut Pro</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3">
+                                <div class="bg-pink-500 h-3 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-20" data-aos="fade-up">
+                <h4 class="text-xl font-bold text-center text-slate-800 mb-8">Teknologi Lainnya & Tools</h4>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Docker</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Kubernetes</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">GraphQL</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">REST
+                        API</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Jest
+                        / Cypress</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-pink-500 hover:text-pink-600 transition cursor-pointer">Lightroom</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-pink-500 hover:text-pink-600 transition cursor-pointer">OBS
+                        Studio</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Webpack</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Vite</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Linux/Bash</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-pink-500 hover:text-pink-600 transition cursor-pointer">Notion</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-pink-500 hover:text-pink-600 transition cursor-pointer">Jira</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Supabase</span>
+                    <span
+                        class="px-5 py-2.5 bg-white border border-slate-200 rounded-full shadow-sm font-semibold text-slate-600 hover:border-indigo-500 hover:text-indigo-600 transition cursor-pointer">Firebase</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-indigo-600 font-bold tracking-wide uppercase text-sm mb-2">Hasil Karya Terpilih</h2>
+                <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-8">Portofolio Development</h3>
+                <p class="text-slate-600 max-w-2xl mx-auto text-lg">Kumpulan aplikasi web dan platform digital yang saya
+                    bangun dengan fokus pada performa, aksesibilitas, dan pengalaman pengguna.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Dashboard Analytics"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Next.js</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Tailwind</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Sistem Dashboard Analytics Enterprise</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Aplikasi dashboard untuk memantau metrik penjualan
+                            real-time dengan grafik interaktif dan export laporan PDF.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="E-commerce Platform"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">React</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Node.js</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Stripe</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Platform E-Commerce Fashion</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Toko online lengkap dengan fitur keranjang belanja,
+                            checkout aman, dan manajemen inventaris admin.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Portfolio Generator"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Vue.js</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Firebase</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Web Portfolio Builder</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Sistem drag-and-drop untuk membantu desainer membuat
+                            website portofolio mereka sendiri tanpa coding.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Chat Application"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">React
+                                Native</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Socket.io</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Aplikasi Pesan Instan Real-time</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Aplikasi chat dengan dukungan enkripsi end-to-end,
+                            panggilan suara, dan berbagi file media.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="500">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Financial Tracker"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Angular</span>
+                            <span class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">D3.js</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Manajemen Keuangan Pribadi</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Visualisasi data pengeluaran dan pemasukan dengan
+                            algoritma prediksi anggaran cerdas berbasis history.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="600">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Blog Engine"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Gatsby</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">GraphQL</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Contentful</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Sistem Manajemen Konten Blog Headless</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Blog statis yang sangat cepat memanfaatkan arsitektur
+                            Jamstack dan headless CMS untuk penulis korporat.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Marketing API"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Python</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">FastAPI</span>
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">PostgreSQL</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">REST API Integrasi Marketing</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Microservice backend untuk menghubungkan berbagai
+                            platform pemasaran email dan analitik secara otomatis.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="IoT Control"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span
+                                class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">SvelteKit</span>
+                            <span class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">MQTT</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Antarmuka Kontrol Smart Home IoT</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Web app ringan untuk mengontrol perangkat rumah pintar
+                            dengan delay respons kurang dari 50ms.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden bg-slate-50 shadow-sm border border-slate-100 hover-lift"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="h-64 overflow-hidden relative">
+                        <div
+                            class="absolute inset-0 bg-indigo-900 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                            <a href="#"
+                                class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold transform -translate-y-4 group-hover:translate-y-0 transition duration-300">Live
+                                Demo</a>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Code Editor"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex gap-2 mb-4">
+                            <span class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Vue 3</span>
+                            <span class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Monaco
+                                Editor</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">Web-based IDE untuk Pemula</h4>
+                        <p class="text-slate-600 mb-4 text-sm">Editor kode online dengan kompilasi real-time dan
+                            gamifikasi untuk anak-anak belajar pemrograman.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-pink-600 font-bold tracking-wide uppercase text-sm mb-2">Karya Visual</h2>
+                <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-8">Portofolio Editing & Motion</h3>
+                <p class="text-slate-600 max-w-2xl mx-auto text-lg">Proyek pascaproduksi video, mulai dari iklan
+                    komersial, film pendek, hingga animasi grafis gerak yang dinamis.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="50">
+                    <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 1"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">Iklan Mobil Sport 2024</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">Editing & Color Grading</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Premiere</span>
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">DaVinci</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 2"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">Dokumenter Alam Liar</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">Sound Design & Editing</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Premiere</span>
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Audition</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="150">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 3"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">Cyberpunk Music Video</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">VFX & Compositing</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">After Effects</span>
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">C4D</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 4"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">Produk Fashion Campaign</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">Motion Graphics</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">After Effects</span>
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="250">
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 5"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">Company Profile Tech Startup</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">Editing & Motion Text</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Premiere</span>
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">AE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 6"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">Gaming Montage Highlights</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">Fast-paced Editing</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Premiere Pro</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="350">
+                    <img src="https://images.unsplash.com/photo-1518131672697-613becd4fab5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 7"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">Cinematic Wedding Story</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">Color Grading & Storytelling</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Final Cut Pro</span>
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">DaVinci</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden cursor-pointer h-72" data-aos="zoom-in"
+                    data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Video Project 8"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80 group-hover:opacity-90 transition duration-300">
+                    </div>
+                    <div
+                        class="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <div
+                            class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white mb-4 opacity-0 group-hover:opacity-100 transition duration-300 delay-100 shadow-lg">
+                            <i class="fas fa-play ml-1"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-lg mb-1">App Explainer Video</h4>
+                        <p class="text-pink-300 text-sm font-medium mb-2">2D Animation</p>
+                        <div class="flex gap-2 opacity-0 group-hover:opacity-100 transition duration-300 delay-150">
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">After Effects</span>
+                            <span class="text-xs text-white/70 bg-white/20 px-2 py-1 rounded">Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-12" data-aos="fade-up">
+                <a href="#"
+                    class="inline-block border-2 border-pink-500 text-pink-600 font-bold px-8 py-3 rounded-full hover:bg-pink-500 hover:text-white transition duration-300">Muat
+                    Lebih Banyak Video</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-24 bg-indigo-600 relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-indigo-200 font-bold tracking-wide uppercase text-sm mb-2">Ulasan Klien</h2>
+                <h3 class="text-3xl md:text-5xl font-extrabold text-white">Apa Kata Mereka?</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 text-white"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex text-yellow-400 mb-4 text-sm">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-6 italic text-indigo-50 leading-relaxed">"Icha adalah salah satu developer paling
+                        berbakat yang pernah bekerja dengan saya. Dia merombak ulang seluruh frontend aplikasi kami
+                        menjadi sangat responsif dan cepat. Sangat merekomendasikan!"</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://ui-avatars.com/api/?name=Budi+Santoso&background=random" alt="Budi"
+                            class="w-12 h-12 rounded-full border-2 border-white/50">
+                        <div>
+                            <h5 class="font-bold">Budi Santoso</h5>
+                            <p class="text-xs text-indigo-200">CTO, TechNusa</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 text-white"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex text-yellow-400 mb-4 text-sm">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-6 italic text-indigo-50 leading-relaxed">"Video promosi yang diedit oleh Icha
+                        benar-benar meningkatkan konversi penjualan kami. Pemilihan warna dan transisi yang digunakan
+                        sangat sinematik dan profesional. Kami pasti akan menggunakan jasanya lagi."</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://ui-avatars.com/api/?name=Sarah+Wijaya&background=random" alt="Sarah"
+                            class="w-12 h-12 rounded-full border-2 border-white/50">
+                        <div>
+                            <h5 class="font-bold">Sarah Wijaya</h5>
+                            <p class="text-xs text-indigo-200">Marketing Director, StyleBrand</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 text-white"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex text-yellow-400 mb-4 text-sm">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-6 italic text-indigo-50 leading-relaxed">"Kombinasi skill koding dan desain grafis yang
+                        dimiliki Icha sangat jarang ditemukan. Dia bisa membuat UI yang kompleks sekaligus memastikan
+                        animasinya mulus 60fps. Hasil kerjanya melampaui ekspektasi."</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://ui-avatars.com/api/?name=David+Lee&background=random" alt="David"
+                            class="w-12 h-12 rounded-full border-2 border-white/50">
+                        <div>
+                            <h5 class="font-bold">David Lee</h5>
+                            <p class="text-xs text-indigo-200">Product Manager, StartupX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 text-white"
+                    data-aos="fade-up" data-aos-delay="400">
+                    <div class="flex text-yellow-400 mb-4 text-sm">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-6 italic text-indigo-50 leading-relaxed">"Saya memesan paket company profile. Icha
+                        membuatkan website dan juga mengedit video latar belakang perusahaannya. Komunikasi sangat
+                        lancar dan pengerjaan tepat waktu."</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://ui-avatars.com/api/?name=Anita+Kusuma&background=random" alt="Anita"
+                            class="w-12 h-12 rounded-full border-2 border-white/50">
+                        <div>
+                            <h5 class="font-bold">Anita Kusuma</h5>
+                            <p class="text-xs text-indigo-200">CEO, Kusuma Corp</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 text-white"
+                    data-aos="fade-up" data-aos-delay="500">
+                    <div class="flex text-yellow-400 mb-4 text-sm">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-6 italic text-indigo-50 leading-relaxed">"Sebagai agensi, kami sering memberikan proyek
+                        limpahan ke Icha, baik itu frontend development dengan React maupun motion graphics di After
+                        Effects. Selalu memuaskan dan minim revisi!"</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://ui-avatars.com/api/?name=Rizky+Pratama&background=random" alt="Rizky"
+                            class="w-12 h-12 rounded-full border-2 border-white/50">
+                        <div>
+                            <h5 class="font-bold">Rizky Pratama</h5>
+                            <p class="text-xs text-indigo-200">Founder, Kreativ Agency</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 text-white"
+                    data-aos="fade-up" data-aos-delay="600">
+                    <div class="flex text-yellow-400 mb-4 text-sm">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-6 italic text-indigo-50 leading-relaxed">"Detail yang diberikan pada color grading film
+                        pendek independen kami sangat luar biasa. Suasana sedih dan tegang berhasil dibangun hanya dari
+                        tone warna yang Icha kerjakan."</p>
+                    <div class="flex items-center gap-4">
+                        <img src="https://ui-avatars.com/api/?name=Maya+Sari&background=random" alt="Maya"
+                            class="w-12 h-12 rounded-full border-2 border-white/50">
+                        <div>
+                            <h5 class="font-bold">Maya Sari</h5>
+                            <p class="text-xs text-indigo-200">Indie Film Director</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="bg-slate-50 rounded-[3rem] p-8 md:p-16 border border-slate-100 shadow-xl shadow-slate-200/50"
+                data-aos="fade-up">
+                <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Mari Ciptakan Sesuatu yang
+                            Luar Biasa.</h2>
+                        <p class="text-lg text-slate-600 mb-8 leading-relaxed">Apakah Anda memiliki proyek pengembangan
+                            aplikasi web yang butuh direalisasikan? Atau membutuhkan sentuhan magis pada video komersial
+                            Anda? Jangan ragu untuk menghubungi saya.</p>
+                        <div class="space-y-6 mb-8">
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-indigo-600 shadow-sm border border-slate-100">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-slate-500 font-semibold">Email</p>
+                                    <p class="text-lg font-bold text-slate-800">hello@icha.dev</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-indigo-600 shadow-sm border border-slate-100">
+                                    <i class="fas fa-phone-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-slate-500 font-semibold">Telepon / WhatsApp</p>
+                                    <p class="text-lg font-bold text-slate-800">+62 812 3456 7890</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-indigo-600 shadow-sm border border-slate-100">
+                                    <i class="fas fa-map-marker-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-slate-500 font-semibold">Lokasi</p>
+                                    <p class="text-lg font-bold text-slate-800">Malang, Indonesia Raya</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
+                        <form>
+                            <div class="mb-6">
+                                <label class="block text-sm font-bold text-slate-700 mb-2">Nama Lengkap</label>
+                                <input type="text"
+                                    class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition"
+                                    placeholder="Masukkan nama Anda">
+                            </div>
+                            <div class="mb-6">
+                                <label class="block text-sm font-bold text-slate-700 mb-2">Alamat Email</label>
+                                <input type="email"
+                                    class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition"
+                                    placeholder="email@perusahaan.com">
+                            </div>
+                            <div class="mb-6">
+                                <label class="block text-sm font-bold text-slate-700 mb-2">Jenis Kebutuhan</label>
+                                <select
+                                    class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition text-slate-600">
+                                    <option>Web Development (Frontend/Backend)</option>
+                                    <option>Video Editing / Post Production</option>
+                                    <option>Motion Graphics / Animation</option>
+                                    <option>Lainnya</option>
+                                </select>
+                            </div>
+                            <div class="mb-6">
+                                <label class="block text-sm font-bold text-slate-700 mb-2">Pesan Anda</label>
+                                <textarea rows="4"
+                                    class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition resize-none"
+                                    placeholder="Ceritakan detail proyek Anda di sini..."></textarea>
+                            </div>
+                            <button type="button"
+                                class="w-full bg-indigo-600 text-white font-bold py-4 rounded-xl hover:bg-indigo-700 transition shadow-lg shadow-indigo-200">
+                                Kirim Pesan Sekarang
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8 border-b border-slate-800 pb-8">
+                <div class="col-span-2">
+                    <a href="#" class="text-2xl font-extrabold tracking-tighter text-white mb-4 block">Icha.dev</a>
+                    <p class="text-slate-400 max-w-sm leading-relaxed mb-6">Membantu bisnis dan individu bertransformasi
+                        di era digital melalui kode yang elegan dan visual yang memikat. Kharisma Choirunisa P -
+                        Software Developer & Video Editor.</p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-indigo-600 hover:text-white transition"><i
+                                class="fab fa-github"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-pink-600 hover:text-white transition"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-red-600 hover:text-white transition"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Navigasi Cepat</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-indigo-400 transition">Beranda</a></li>
+                        <li><a href="#about" class="hover:text-indigo-400 transition">Tentang Saya</a></li>
+                        <li><a href="#experience" class="hover:text-indigo-400 transition">Pengalaman Kerja</a></li>
+                        <li><a href="#skills" class="hover:text-indigo-400 transition">Keahlian & Tools</a></li>
+                        <li><a href="#portfolio" class="hover:text-indigo-400 transition">Portofolio Web</a></li>
+                        <li><a href="#portfolio" class="hover:text-indigo-400 transition">Portofolio Video</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Layanan</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-indigo-400 transition">Frontend Web Development</a></li>
+                        <li><a href="#" class="hover:text-indigo-400 transition">Backend API Integration</a></li>
+                        <li><a href="#" class="hover:text-indigo-400 transition">Corporate Video Editing</a></li>
+                        <li><a href="#" class="hover:text-indigo-400 transition">Cinematic Color Grading</a></li>
+                        <li><a href="#" class="hover:text-indigo-400 transition">2D Motion Graphics</a></li>
+                        <li><a href="#" class="hover:text-indigo-400 transition">UI/UX Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
+                <p>&copy; 2026 Kharisma Choirunisa P (Icha). Semua Hak Cipta Dilindungi.</p>
+                <p class="mt-2 md:mt-0">Dibuat dengan <i class="fas fa-heart text-red-500 mx-1"></i> dan Tailwind CSS
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 50,
+            duration: 800,
+            easing: 'ease-out-cubic',
+        });
+
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-md');
+                navbar.classList.remove('border-transparent');
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.classList.add('border-transparent');
+            }
+        });
+    </script>
+</body>
+
+</html>
